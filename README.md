@@ -6,7 +6,7 @@
 
 ## :rocket: About the challenge
 
-In this challenge, an application was developed to train and fix the ReactJS concepts during the Bootcamp GoStack 11 promoted by [Rocketseat] (https://rocketseat.com.br/)!
+In this challenge, an application was developed to train and fix the ReactJS concepts during the Bootcamp GoStack 11 promoted by [Rockeseat](https://rocketseat.com.br)
 
 The application allows you to add and remove portfolios from repositories, which are sent to an API made in Node.
 
