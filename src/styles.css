@@ -6,11 +6,15 @@
 
 body {
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
   width: 100%;
   margin: 20px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
 }
 
 div li {
@@ -20,6 +24,15 @@ div li {
 
 div li + li {
   margin-top: 15px;
+}
+
+input {
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 4px;
+  margin-right: 15px;
+  width: 190px;
 }
 
 button {
@@ -36,4 +49,20 @@ button {
 div li button {
   margin: 0 15px;
   background: #ca4949;
+}
+
+.new-repo {
+  max-width: 320px;
+  display: inline;
+  align-self: center;
+  justify-self: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background: #7159c1;
+  max-width: 800px;
+  height: 100px;
+  color: antiquewhite;
 }
